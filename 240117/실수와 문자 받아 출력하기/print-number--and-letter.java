@@ -9,6 +9,7 @@ public class Main {
         a = sc.nextDouble();
         b = sc.nextDouble();
         System.out.println(c);
-        System.out.printf("%.2f"a,b);
+        System.out.printf("%.2f\n%.2f",a,b);
+        // System.out.printf("%.2f",b);
     }
 }
