@@ -8,6 +8,8 @@ public class Main {
         b = sc.nextInt();
         if(a<b) {
             System.out.println(b-a);
-        } 
+        }else {
+            System.out.println(-(a-b));
+        }
     }
 }
