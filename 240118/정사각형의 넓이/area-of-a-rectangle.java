@@ -8,7 +8,7 @@ public class Main {
             System.out.println(a*a);
         }else{
             System.out.println(a*a);
-            System.out.println("tiny")
+            System.out.println("tiny");
         }
     }
 }
