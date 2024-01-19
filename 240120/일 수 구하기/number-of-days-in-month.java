@@ -7,7 +7,9 @@ public class Main {
         int a= sc.nextInt();
         if(a<=7&&a%2==1||8<=a&&a<=12&&a%2==0) {
             System.out.println(31);
-        }else
+        }else if(a==2)
+            System.out.println(28);
+        else
             System.out.println(30);
     }
 }
