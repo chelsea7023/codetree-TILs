@@ -11,12 +11,9 @@ public class Main {
             if(i%4==0){
                 cnt ++;
             }
-            if(i%100==0&&i%400==0){
-                cnt++;
-            }else if (i%100==0){
+            if(i%100==0&&i%400!=0){
                 cnt--;
             }
-
     }System.out.println(cnt);
     }
 }
