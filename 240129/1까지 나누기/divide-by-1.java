@@ -7,6 +7,7 @@ public class Main {
         for (int i = 1; true; i++){
             if(n>i){
                 n=n/i;
+                continue;
             }else if(n<=i) {
                 System.out.println(i);
                 break;
