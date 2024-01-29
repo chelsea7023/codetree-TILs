@@ -7,16 +7,13 @@ public class Main {
         int cnt = 0;
         while(true){
             int a = sc.nextInt();
-            if(a<=29){
+            if(a<=29&&a>19){
                 sum+=a;
                 cnt++;
             }else{
                 break;
             }
-        }if(cnt>0){
-        double avg = (double)sum/cnt;
-        System.out.printf("%.2f",avg);
-        }
-        
+        }  double avg = (double)sum/cnt;
+            System.out.printf("%.2f",avg);
     }
 }
