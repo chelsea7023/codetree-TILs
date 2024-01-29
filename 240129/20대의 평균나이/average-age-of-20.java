@@ -5,9 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int sum = 0;
         int cnt = 0;
-        
         while(true){
-            
             int a = sc.nextInt();
             if(a<=29){
                 sum+=a;
