@@ -13,8 +13,10 @@ public class Main {
             }else{
                 break;
             }
-        } 
+        }if(cnt>0){
         double avg = (double)sum/cnt;
         System.out.printf("%.2f",avg);
+        }
+        
     }
 }
