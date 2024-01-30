@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         boolean satisfied = true;
-        if(n%2 == 0 && n%3 == 0){
+        if(n%2 == 0 || n%3 == 0){
             satisfied = false;
         }
         if(satisfied == false){
