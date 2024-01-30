@@ -7,14 +7,14 @@ public class Main {
         boolean satisfied = true;
         for(int i = 0; i < 5; i++){
             a = sc.nextInt();
-            if(a%3 == 0){
+            if(a%3 != 0){
                 satisfied = false;
             }
             
         }if(satisfied == false){
-            System.out.println(1);
-        }else{
             System.out.println(0);
+        }else{
+            System.out.println(1);
         }
     }
 }
