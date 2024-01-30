@@ -5,13 +5,13 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         boolean satisfied = true;
-        if(n%2 == 0 || n%3 == 0 || n%5 == 0 || n%7 == 0){
+        if(n%2 != 0 && n%3 != 0){
             satisfied = false;
         }
         if(satisfied == false){
-            System.out.println('P');
-        }else{
             System.out.println('C');
+        }else{
+            System.out.println('P');
         }
     }
 }
