@@ -9,7 +9,7 @@ public class Main {
                 if(j%2 == 0){
                     System.out.print(i+1);
                 }else{
-                    System.out.print(4-i);
+                    System.out.print(n-i);
                 }
             }System.out.println();
         }
