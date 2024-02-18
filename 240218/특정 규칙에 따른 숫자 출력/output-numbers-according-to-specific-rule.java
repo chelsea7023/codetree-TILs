@@ -8,7 +8,7 @@ public class Main {
         for(int i = 0; i < N; i++){
             for(int j = 0; j < i; j++){
                 System.out.print("  ");
-            }for(int j = 0; j < N - i; j++){
+            }for(int j = N - i; j > 0; j--){
                 System.out.print(cnt + " ");
                 cnt++;
                 if(cnt > 9){
