@@ -10,7 +10,7 @@ public class Main {
         int sum = 0;
         int cnt = 0; 
         for(int i = 0; i < 10; i++){
-            if(num[i] >= 260){
+            if(num[i] >= 250){
                 for(int j = 0; j < i; j++){
                     sum += num[j];
                     cnt++;
