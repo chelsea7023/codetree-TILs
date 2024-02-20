@@ -16,6 +16,6 @@ public class Main {
            }else{
                 break;
         }
-    }System.out.printf(sum + " " + ((double)sum/cnt));
+    }System.out.printf(sum + " " + "%.1f",((double)sum/cnt));
 }
 }
