@@ -9,7 +9,7 @@ public class Main {
             if(arr[i] == 0){
                 for(int j = i - 1; j >= 0; j--){
                     System.out.print(arr[j] + " ");
-                }
+                }break;
             }
         }
     }
