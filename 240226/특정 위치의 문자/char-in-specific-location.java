@@ -5,13 +5,15 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         char a = sc.next().charAt(0);
         char[] arr = {'L', 'E', 'B', 'R', 'O', 'S'};
+        int cnt = 0;
         for(int i = 0; i < 6; i ++){
             if(arr[i] == a){
                 System.out.print(i);
-                break;
-            }else{
-                System.out.print(0);
+                cnt++;
             }
+        }
+        if(cnt == 0){
+            System.out.print("None");
         }
         
     }
