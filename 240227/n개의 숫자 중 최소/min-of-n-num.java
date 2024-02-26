@@ -7,7 +7,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
-        int[]arr = new int[10];
+        int[]arr = new int[N];
 
         int min = INT_MAX;
         for(int i = 0; i < N; i++){
