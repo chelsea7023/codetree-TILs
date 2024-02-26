@@ -19,17 +19,20 @@ public class Main {
 
         boolean success = true;
 
-        while(success){
-            for(int i = 0; i < n1; i++){
-                if(N[i] == M[0]){
-                    for(int j = 0; j < n2; j++){
-                        if(N[i + j] != M[j]){
-                            success = false;
-                        }
+        for(int i = 0; i < n1; i++){
+            if(N[i] == M[0]){
+                for(int j = 0; j < n2; j++){
+                    if(N[i + j] != M[j]){
+                        success = false;
+                        break;
                     }
-                } 
-            }break;
+                }
+                if (success) {
+                    break; // Break the outer loop if success is true
+                }
+            }
         }
+        
         if(success){
             System.out.print("Yes");
         }else{
