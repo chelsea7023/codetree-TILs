@@ -24,7 +24,7 @@ public class Main {
             }else if(a == 2){
                 int b = sc.nextInt();
                 num = 0;
-                min = Integer.MAX_VALUE;
+                min = 100;
                 for(int j = 0; j < n; j++){
                     if(arr[j] == b){
                         num = j;
@@ -33,13 +33,18 @@ public class Main {
                         }
                     }
                 }
-                System.out.println(min + 1);
-            }else{
+                if(min == 100){
+                    System.out.println(0);
+                }else{
+                    System.out.println(min + 1);
+                }
+            }else if(a == 3){
                 int b = sc.nextInt();
                 int c = sc.nextInt();
                 for(int j = b - 1; j < c; j++){
                     System.out.print(arr[j] + " ");
                 }
+                System.out.println();
 
             }
         }
