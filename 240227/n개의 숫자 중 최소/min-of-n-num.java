@@ -17,11 +17,13 @@ public class Main {
             }
         }
         System.out.print(min + " ");
+
+        int cnt = 0;
         for(int i = 0; i < N; i++){
             if(arr[i] == min){
-                System.out.print(i);
-                break;
+                cnt++;
             }
         }
+        System.out.print(cnt);
     }
 }
