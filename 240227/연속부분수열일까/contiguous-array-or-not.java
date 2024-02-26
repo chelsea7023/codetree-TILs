@@ -32,6 +32,15 @@ public class Main {
                 }
             }
         }
+        int cnt = 0;
+        for(int i = 0; i < n1; i++){
+            if(N[i] == M[0]){
+                cnt++;
+            }
+        }
+        if(cnt == 0){
+            success = false;
+        }
         
         if(success){
             System.out.print("Yes");
