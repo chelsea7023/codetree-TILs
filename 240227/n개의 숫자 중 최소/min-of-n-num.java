@@ -16,7 +16,7 @@ public class Main {
                 min = arr[i];
             }
         }
-        System.out.print(min + " ");
+        
 
         int cnt = 0;
         for(int i = 0; i < N; i++){
@@ -24,6 +24,6 @@ public class Main {
                 cnt++;
             }
         }
-        System.out.print(cnt);
+        System.out.print(min + " " + cnt);
     }
 }
