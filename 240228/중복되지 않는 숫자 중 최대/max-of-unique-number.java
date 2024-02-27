@@ -13,7 +13,7 @@ public class Main {
             cnt[arr[i]]++;
         }
         int max = 0;
-        for(int i = 1; i < N; i++){
+        for(int i = 1; i <= N; i++){
             if(cnt[i] == 1){
                 if(max < i){
                     max = i;
