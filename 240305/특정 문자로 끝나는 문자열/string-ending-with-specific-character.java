@@ -8,10 +8,22 @@ public class Main {
             arr[i] = sc.next();
         }
         char a = sc.next().charAt(0);
+       
+        boolean success = false;
         for(int i = 0; i < 10; i++){
+             if(arr[i].charAt(arr[i].length() - 1) == a){
+                success = true; 
+                break;
+             }
+        }
+        if(success){
+            for(int i = 0; i < 10; i++){
              if(arr[i].charAt(arr[i].length() - 1) == a){
                 System.out.println(arr[i]);
              }
+        }
+        }else{
+            System.out.println("None");
         }
     }
 }
