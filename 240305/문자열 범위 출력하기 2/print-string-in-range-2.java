@@ -10,7 +10,7 @@ public class Main {
             System.out.print(str.charAt(i));
         }
         }else{
- for(int i = str.length() - 1; i > str.length() - 12; i--){
+        for(int i = str.length() - 1; i > str.length() - num - 1; i--){
             System.out.print(str.charAt(i));
         }
         }
