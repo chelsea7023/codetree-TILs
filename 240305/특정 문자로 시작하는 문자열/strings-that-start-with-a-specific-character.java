@@ -11,14 +11,12 @@ public class Main {
             arr[i] = sc.next();
         }
         char a = sc.next().charAt(0);
-        TC : for(int i = 0; i < n; i++){
-            String str = arr[i];
-            for(int j = 0; j < str.length(); j++){
-                if(str.charAt(j) == a){
+        for(int i = 0; i < n; i++){
+                if(arr[i].charAt(0) == a){
                     cnt++;
-                    sum+= str.length();
-                    continue TC;
-                }
+                    sum+= arr[i].length();
+                    
+                
             }
         }
         System.out.print(cnt + " ");
