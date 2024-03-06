@@ -5,6 +5,11 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         char a = sc.next().charAt(0);
-        System.out.println(str.indexOf(a));
+        int n = str.indexOf(a);
+        if(n == -1){
+            System.out.println("No");
+        }else{
+            System.out.println(n);
+        }
     }
 }
