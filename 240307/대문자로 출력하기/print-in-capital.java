@@ -6,7 +6,7 @@ public class Main {
         String str = sc.next();
         String STR = str.toUpperCase();
         for(int i = 0; i < STR.length(); i++){
-            if(STR.charAt(i) >= 65 && STR.charAt(i) < 99){
+            if(STR.charAt(i) >= 'A' && STR.charAt(i) <= 'Z'){
                 System.out.print(STR.charAt(i));
             }
         }
