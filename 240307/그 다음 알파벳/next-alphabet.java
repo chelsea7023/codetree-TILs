@@ -3,10 +3,12 @@ public class Main {
     public static void main(String[] args) {
         // 여기에 코드를 작성해주세요.
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        if(a == (int)z){
-            (char)(a+1) = 'a';
+        char ch = sc.next().charAt(0);
+        int num = (int)ch;
+        if(ch == 'z'){
+            System.out.println('a');
+        }else{
+            System.out.println((char)(num + 1));
         }
-        System.out.println((char)(a+1));
     }
 }
