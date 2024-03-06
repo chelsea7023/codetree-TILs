@@ -24,7 +24,8 @@ public class Main {
                         arr[j] = ch2;
                     }
                 }
-                System.out.println(String.valueOf(arr));
+                str = String.valueOf(arr);
+                System.out.println(str);
             }
 
         }
