@@ -5,16 +5,14 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         String str2 = sc.next();
-        int min = Integer.MAX_VALUE;
+        int n = 0;
         for(int i = 0; i < str.length() - 1; i++){
-            if(str.substring(i, i+str2.length()).equals(str2)){
-                int n = str.indexOf(str2);
-                if(min > n){
-                    min = n;
-                }
+            if(str.substring(i, i + str2.length()).equals(str2)){
+                n = str.indexOf(str2);
+                break;
             }
         }
 
-        System.out.println(min);
+        System.out.println(n);
     }
 }
