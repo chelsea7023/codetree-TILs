@@ -6,7 +6,7 @@ public class Main {
         String str = sc.next();
         int num = str.indexOf('e');
         // System.out.println(num);
-        str = str.substring(0, 3) + str.substring(4);
+        str = str.substring(0, num) + str.substring(num + 1);
         System.out.println(str);
     }
 }
